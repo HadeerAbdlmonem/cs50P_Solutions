@@ -1,0 +1,7 @@
+requests
+pyfiglet
+emoji
+tabulate
+validators
+inflect
+pyttsx3

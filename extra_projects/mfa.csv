@@ -1,0 +1,6 @@
+id,title,accession_number,acquired
+1,Profusion of flowers,56.257,1956-04-12
+2,Farmers working at dawn,11.6152,1911-08-03
+3,Spring outing,14.76,1914-01-08
+4,Imaginative landscape,56.496,
+5,Peonies and butterfly,06.1899,1906-01-01
