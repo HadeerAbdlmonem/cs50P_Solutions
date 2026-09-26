@@ -131,7 +131,7 @@ cs50p_2024/
 ## 👩‍💻 Author
 
 **Hadeer**
-Senior Digital Verification Engineer & Technical Instructor
+Senior AI/ML ENGINEER for digital ic design and AI ACCELERATOR 
 
 ---
 
