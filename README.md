@@ -1,4 +1,4 @@
-# 🐍 CS50P — Introduction to Programming with Python (2024)
+0# 🐍 CS50P — Introduction to Programming with Python (2024)
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![CS50P](https://img.shields.io/badge/CS50-Python-red?style=for-the-badge&logo=harvard&logoColor=white)
@@ -120,13 +120,7 @@ cs50p_2024/
 
 ---
 
-## 📝 Notes
 
-- `fuel.py` (Week 3) was empty in the original submission — nothing to clean up there.
-- `shirt.py` (Week 6) only has its file-handling scaffold completed; the image-processing logic is marked with `TODO`s.
-- See [`week5_unit_tests/README.md`](week5_unit_tests/README.md) for a flagged discrepancy between one test assertion and the standard vanity-plate validation rules.
-
----
 
 ## 👩‍💻 Author
 
