@@ -51,7 +51,7 @@ Each folder has its **own README** with a description of every script, how to ru
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/cs50p-2024.git
+git clone https://github.com/HadeerAbdlmonem/cs50p-2024.git
 cd cs50p-2024
 pip install -r requirements.txt
 ```
