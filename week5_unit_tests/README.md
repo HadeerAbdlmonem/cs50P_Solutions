@@ -4,16 +4,9 @@
 ![Topic](https://img.shields.io/badge/Topic-Unit%20Testing-9cf?style=flat-square)
 ![pytest](https://img.shields.io/badge/tested%20with-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
-> Writing tests so your code proves itself — revisiting earlier problems and adding `pytest`-powered test suites. ✅
 
----
 
-## 📂 Problems in this folder
 
-| Script | Test file | Problem | 💡 Summary |
-|---|---|---|---|
-| `bank_.py` | `test_bank_.py` | 🏦 Back to the Bank | Calculates a greeting fee, now with tests covering each pricing tier |
-| `plates.py` | `test_plates.py` | 🚗 Re-requesting a Vanity Plate | Validates license plates, now with tests covering edge cases |
 
 ---
 
