@@ -1,25 +1,38 @@
-"""Overlay a shirt image onto a photo (CS50P 'Shirt' exercise).
-
-NOTE: the image-processing logic itself is still a work in progress in the
-original submission; only the file-handling scaffold has been cleaned up here.
-"""
-
-from sys import argv, exit
-
+import sys
+from PIL import Image, ImageOps
 
 def main():
-    if len(argv) != 3:
-        exit("Usage: python shirt.py input.jpg output.jpg")
+    if len(sys.argv)!= 3:
+        sys.exit("Too few command-line arguments" if len(sys.argv) < 3 else "Too many command-line arguments")
+
+    input_path = sys.argv[1]
+    output_path = sys.argv[2]
+
+    input_ext = input_path.lower().rsplit(".", 1)
+    output_ext = output_path.lower().rsplit(".", 1)
+
+    if len(input_ext)!= 2 or input_ext[1] not in ["jpg", "jpeg", "png"]:
+        sys.exit("Invalid input")
+    if len(output_ext)!= 2 or output_ext[1] not in ["jpg", "jpeg", "png"]:
+        sys.exit("Invalid input")
+    if input_ext[1]!= output_ext[1]:
+        sys.exit("Input and output have different extensions")
 
     try:
-        with open(argv[1], "r"):
-            pass  # TODO: read and process the input image
+        input_image = Image.open(input_path)
+    except FileNotFoundError:
+        sys.exit("Input does not exist")
 
-        with open(argv[2], "w"):
-            pass  # TODO: write the composited output image
-    except Exception:
-        exit("Could not open input/output file")
+    try:
+        shirt = Image.open("shirt.png")
+    except FileNotFoundError:
+        sys.exit("Shirt image not found")
 
+    input_cropped = ImageOps.fit(input_image, shirt.size)
+
+    input_cropped.paste(shirt, shirt)
+
+    input_cropped.save(output_path)
 
 if __name__ == "__main__":
     main()
