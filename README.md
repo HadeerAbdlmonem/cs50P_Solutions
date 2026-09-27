@@ -112,7 +112,6 @@ cs50p_2024/
 ├── week6_file_io/
 ├── week7_regular_expressions/
 ├── week8_oop/
-├── extra_projects/
 ├── requirements.txt
 └── README.md   ← you are here
 ```
