@@ -41,10 +41,6 @@ python shirt.py input.jpg output.jpg
 - Reading and writing CSV files with the `csv` module
 - Command-line arguments (`sys.argv`)
 
-## 📝 Note
-
-`shirt.py` only has its file-handling scaffold completed — the actual image-compositing logic is left as `TODO` in the original submission. 🚧
-
 ---
 
 ⬅️ [Back to main README](../README.md)
