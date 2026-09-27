@@ -11,7 +11,6 @@
 
 | Script | Problem | 💡 Summary |
 |---|---|---|
-| `fuel.py` | ⛽ Fuel Gauge | *(placeholder — not implemented in the original submission)* |
 | `taqueria.py` | 🌮 Felipe's Taqueria | Tallies up the price of a taco order entered until EOF |
 | `grocery.py` | 🛒 Grocery List | Reads grocery items and reports counts of each distinct item |
 | `outdated.py` | 📅 Outdated | Normalizes dates like `9/8/1636` or `September 8, 1636` into `1636-09-08` |
