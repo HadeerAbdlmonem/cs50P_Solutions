@@ -35,7 +35,6 @@ Every file has been reviewed and polished to:
 | 6 | [`week6_file_io`](week6_file_io) | 🗂️ File I/O | Lines of Code, Pizza Py, Scourgify, CS50 P-Shirt |
 | 7 | [`week7_regular_expressions`](week7_regular_expressions) | 🔍 Regular Expressions | NUMB3RS, Watch on YouTube, Working 9 to 5, Um, Response Validation |
 | 8 | [`week8_oop`](week8_oop) | 🧱 OOP | Cookie Jar, Seasons of Love |
-| — | [`extra_projects`](extra_projects) | 🎨 Extras | Tkinter Calculator, Text-to-Speech app |
 
 Each folder has its **own README** with a description of every script, how to run it, and the concepts it practices. 👀
 
