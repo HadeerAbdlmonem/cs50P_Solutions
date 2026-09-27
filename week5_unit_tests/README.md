@@ -27,7 +27,7 @@ pytest
 Or run an individual test file:
 
 ```bash
-pytest test_bank_.py -v
+pytest test_bank_.py -testote
 pytest test_plates.py -v
 ```
 
@@ -37,9 +37,7 @@ pytest test_plates.py -v
 - Using `assert` to verify expected behavior
 - Testing edge cases, not just the "happy path"
 
-## ⚠️ A note worth reading
 
-`test_plates.py::test_letters_then_digit` asserts that `is_valid("C5")` should be `False`. Under the standard CS50P vanity-plate rules (letters first, then digits, no leading zero), `"C5"` is actually a **valid** plate — so this particular assertion contradicts the implementation's logic. It's been left exactly as originally written (rather than silently changed) since it may reflect an intentional variation on the rules; it's flagged here so it can be revisited if it wasn't intentional. 🔍
 
 ---
 
