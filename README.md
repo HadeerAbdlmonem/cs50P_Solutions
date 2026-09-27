@@ -19,8 +19,7 @@ Every file has been reviewed and polished to:
 - ✅ Use **clear, descriptive variable and function names**
 - ✅ Include a short **docstring** explaining what each program does
 - ✅ Wrap logic in a `main()` function with an `if __name__ == "__main__":` guard
-- ✅ Fix small bugs found in the original attempts (typos, edge cases, logic slips)
-
+  
 ---
 
 ## 🗓️ Weekly Roadmap
